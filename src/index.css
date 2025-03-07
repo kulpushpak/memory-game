@@ -1,0 +1,28 @@
+:root {
+  --background-color: #003049;
+  --card-front-color: #B0C95B;
+  --card-back-color: #3F655C;
+  --text-color: #B0C95B;
+  --button-background-color: #B0C95B;
+  --button-text-color: #ffffff;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../public/assets/bg.jpg') center/cover no-repeat;
+  backdrop-filter: brightness(0.6) blur(3px);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
